@@ -6,17 +6,19 @@
 /*   By: ksibuyi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/19 16:13:06 by ksibuyi           #+#    #+#             */
-/*   Updated: 2020/06/19 16:30:28 by ksibuyi          ###   ########.fr       */
+/*   Updated: 2020/06/21 09:53:10 by ksibuyi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void  ft_putchar(int n );
+int  ft_putchar(char c );
 
 void ft_print_numbers(void)
 {
-	int first_number = 0;
+	char first_number;
 
-	while (first_ number <= 9 )
+	first_number = 48;
+
+	while (first_number <= 57 )
 	{
 		ft_putchar( first_number );
 		first_number++;
